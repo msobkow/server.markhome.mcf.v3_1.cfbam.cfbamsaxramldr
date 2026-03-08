@@ -1,7 +1,7 @@
 // Description: Java 25 XML SAX Parser for CFBam.
 
 /*
- *	io.github.msobkow.CFBam
+ *	server.markhome.mcf.CFBam
  *
  *	Copyright (c) 2016-2026 Mark Stephen Sobkow
  *	
@@ -32,20 +32,20 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfbam.cfbamsaxramldr;
+package server.markhome.mcf.v3_1.cfbam.cfbamsaxramldr;
 
 import org.apache.log4j.*;
-import io.github.msobkow.v3_1.cflib.*;
-import io.github.msobkow.v3_1.cflib.xml.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.*;
-import io.github.msobkow.v3_1.cfint.cfint.*;
-import io.github.msobkow.v3_1.cfbam.cfbam.*;
+import server.markhome.mcf.v3_1.cflib.*;
+import server.markhome.mcf.v3_1.cflib.xml.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.*;
+import server.markhome.mcf.v3_1.cfint.cfint.*;
+import server.markhome.mcf.v3_1.cfbam.cfbam.*;
 
-import io.github.msobkow.v3_1.cfsec.cfsecobj.*;
-import io.github.msobkow.v3_1.cfint.cfintobj.*;
-import io.github.msobkow.v3_1.cfbam.cfbamobj.*;
-import io.github.msobkow.v3_1.cfbam.CFBamRam.*;
-import io.github.msobkow.v3_1.cfbam.CFBamSaxLoader.*;
+import server.markhome.mcf.v3_1.cfsec.cfsecobj.*;
+import server.markhome.mcf.v3_1.cfint.cfintobj.*;
+import server.markhome.mcf.v3_1.cfbam.cfbamobj.*;
+import server.markhome.mcf.v3_1.cfbam.CFBamRam.*;
+import server.markhome.mcf.v3_1.cfbam.CFBamSaxLoader.*;
 
 public class CFBamSaxRamLdr
 	extends CFBamSaxLdr
